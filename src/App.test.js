@@ -547,7 +547,7 @@ const showData = {
 
 jest.mock('./api/fetchShow.js');
 
-  test('render shows when API is called', async () => {
+  test('render shows', async () => {
       mockFetchShow.mockResolvedValueOnce(showData);
 
       render(<App />)
