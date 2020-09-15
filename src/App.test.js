@@ -552,7 +552,7 @@ jest.mock('./api/fetchShow.js');
 
       render(<App />)
       
-      expect (await (await screen.findByText(/A love letter to the '80s/i)));
+      expect (await screen.findByText(/A love letter to the '80s/i));
       const selectSeason = screen.getByText(/Select a season/i);
 
       userEvent.click(selectSeason);

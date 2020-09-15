@@ -79,6 +79,5 @@ test('Rerenders with new props', () => {
 
     const episodesList = screen.getAllByTestId('episode');
 
-    // expect(episodesList).toHaveLength(3);
     expect(episodesList).toHaveLength(3);
 })
